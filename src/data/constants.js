@@ -8,7 +8,7 @@ export const Bio = {
   description:
     "3rd-year B.Tech. CSE Undergraduate at IIIT Kota. I am a motivated and versatile individual, always eager to take on new challenges and deliver high-quality results. With a positive attitude, growth mindset, and quick learning ability, I am an effective team player excited about contributing to the tech industry.",
   github: "https://github.com/deepakgangwr",
-  links:"https://linktr.ee/deepak_gangwr",
+  links: "https://linktr.ee/deepak_gangwr",
   linkedin: "https://www.linkedin.com/in/deepak-gangwar-92b498257/",
   insta: "https://www.instagram.com/deepak_gangwr/",
   email: "deepakgangwar2003@gmail.com"
@@ -109,7 +109,7 @@ export const skills = [
       {
         name: "Python",
         image:
-          "https://www.kindpng.com/picc/m/159-1595848_python-logo-png-transparent-background-python-logo-png.png" 
+          "https://www.kindpng.com/picc/m/159-1595848_python-logo-png-transparent-background-python-logo-png.png"
       },
     ],
   },
@@ -166,36 +166,56 @@ export const education = [
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Indian Institute of Information Technology, Kota. I have completed 4 semesters and have a CGPA of 7.78. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Web Development, Database Management Systems etc.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
-  // {
-  //   id: 1,
-  //   img: "https://github.com/Ad-gangwar/Portfolio-website/blob/main/src/images/school.png?raw=true",
-  //   school: "Mission Public Schoool, Nbj, Bly, UP",
-  //   date: "Apr 2019 - Apr 2020",
-  //   grade: "93.4%",
-  //   desc: "I completed my class 12th education at Mission Public School, Bareilly, in PCM stream.",
-  //   degree: "XII (PCM)",
-  // },
-  // {
-  //   id: 2,
-  //   img: "https://github.com/Ad-gangwar/Portfolio-website/blob/main/src/images/school.png?raw=true",
-  //   school: "Mission Public Schoool, Nbj, Bly, UP",
-  //   date: "Apr 2017 - Apr 2018",
-  //   grade: "91.8%",
-  //   desc: "I completed my class 10th education at Mission Public School, Bareilly.",
-  //   degree: "CBSE(X)",
-  // },
 ];
 
 export const projects = [
+   {
+    id: 1,
+    title: "travel-world",
+    description: "Travel World is a dynamic full-stack web app built with the MERN stack, offering seamless tour bookings, real-time reviews, and a visually captivating gallery of global destinations. With features like user authentication, a secure booking system, and a mobile-friendly design, it delivers a personalized and effortless travel planning experience.",
+    image:"https://raw.githubusercontent.com/deepakgangwr/travel-world/refs/heads/main/Screenshot%202025-04-07%20185811.png",
+    tags: [
+      "Mongo DB",
+      "Express JS",
+      "React JS",
+      "Node JS",
+      "React JS",
+      " Bootstrap",
+       "HTML",
+      "CSS",
+      "Javascript"
+    ],
+    category: "web app",
+    github: "https://github.com/deepakgangwr/travel-world",
+    webapp: "https://github.com/deepakgangwr/travel-world",
+  },
+  {
+    id: 1,
+    title: "Khana-khajana",
+    description: "Built a full-featured food delivery platform using the MERN stack. Integrated secure user authentication and role-based authorization with JWT, ensuring robust data protection. Developed a dynamic shopping cart with real-time item updates, allowing users to add, modify, or remove items effortlessly. Implemented a comprehensive order management system to track and display order history, enhancing the overall user experience.",
+    image:"https://raw.githubusercontent.com/deepakgangwr/khana-khajana/refs/heads/main/Screenshot%20(258).png",
+    tags: [
+      "Mongo DB",
+      "Express JS",
+      "React JS",
+      "Node JS",
+      "HTML",
+      "CSS",
+      "Javascript"
+    ],
+    category: "web app",
+    github: "https://github.com/deepakgangwr/khana-khajana",
+    webapp: "https://github.com/deepakgangwr/khana-khajana",
+  },
   {
     id: 2,
     title: "Weatherwhiz",
-    description:"This is a simple Tic Tac Toe game project made using HTML, CSS and Javascript. Game starts with the turn of X and if 3 boxes in a line are same then that player wins the game. Sound also plays for each turn and game over.",
+    description: "This is a simple Tic Tac Toe game project made using HTML, CSS and Javascript. Game starts with the turn of X and if 3 boxes in a line are same then that player wins the game. Sound also plays for each turn and game over.",
     image:
       "https://github.com/deepakgangwr/weatherwhiz/blob/main/Screenshot%202024-07-20%20104943.png?raw=true",
     tags: [
       "HTML",
-      "CSS", 
+      "CSS",
       "Javascript",
       "React JS"
     ],
@@ -206,12 +226,12 @@ export const projects = [
   {
     id: 3,
     title: "Tic-Tac-Toe Game",
-    description:"This is a simple Tic Tac Toe game project made using HTML, CSS and Javascript. Game starts with the turn of X and if 3 boxes in a line are same then that player wins the game. Sound also plays for each turn and game over.",
+    description: "This is a simple Tic Tac Toe game project made using HTML, CSS and Javascript. Game starts with the turn of X and if 3 boxes in a line are same then that player wins the game. Sound also plays for each turn and game over.",
     image:
       "https://github.com/deepakgangwr/tic-tac-toe/blob/main/Screenshot%202024-07-20%20103958.png?raw=true",
     tags: [
       "HTML",
-      "CSS", 
+      "CSS",
       "Javascript"
     ],
     category: "web app",
@@ -224,26 +244,15 @@ export const projects = [
     description:
       "Developed the Simon game using HTML, CSS and javascript. In this game, certain patterns are shown to player and the player has to click back the colour boxes in the same pattern. If he/she succeed in doing so, then game is transferred to another harder level and if fails, the score is displayed on the screen and game is started again.",
     image:
-      "https://github.com/Ad-gangwar/Simon-game/blob/main/simon%20game.png?raw=true",
-      tags: ["HTML", "CSS", "Javascript"],
+      "https://raw.githubusercontent.com/deepakgangwr/Simon-game-main/refs/heads/main/simon%20game.png",
+    tags: ["HTML", "CSS", "Javascript"],
     category: "web app",
     github: "https://github.com/deepakgangwr/Simon-game-main",
     webapp: " https://deepakgangwr.github.io/Simon-game-main/",
   },
 
-  {
-    id: 1,
-    title: "InstaFood",
-    description:
-      "Food Delivery Website created using MERN Stack. Implemented secure user authentication and authorization using JWT (JSON Web Tokens) for enhanced data protection. Developed a dynamic shopping cart feature allowing users to add modify, and remove items seamlessly. Created a comprehensive order management system to track and display user orders efficiently.",
-    image:
-      "https://github.com/Ad-gangwar/Go-Food/blob/main/Screenshot%202024-01-31%20094200.png?raw=true",
-    tags: ["Mongo DB","Express JS", "React JS", "Node JS", "HTML", "CSS", "Javascript"],
-    category: "web app",
-    github: "",
-    webapp: "",
-  },
-  
-  
  
+
+
+
 ];
